@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shut UP!</title>
+</head>
+<body>
+    <div class="window">
+        <h1 class="title">Shut_UP.exe</h1>
+        <div class="text">闭嘴!</div>
+        <h1 class="ttext" id="d">我知道你很好奇,但是我并不能告诉你</h1>
+        <div class="button">
+            <button class="click_button" onclick="sse()">点我!</button>
+        </div>
+    </div>
+    <style>
+        body {
+            background: linear-gradient(to right, blue, #c300ff);
+        }
+        .title {
+            color: black;
+            font-size: 10px;
+            text-align: center;
+        }
+        .text {
+            color: red;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .button {
+            display: flex;
+            padding-top: 310px;
+            margin-left: 600px;
+        }
+        .click_button {
+            width: 10%;
+            height: 35px;
+            border-radius: 20px;
+            box-shadow: rgb(58, 57, 57) 0px 8px 20px;
+            color: #ffff;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 35px;
+            background: linear-gradient(to right, blue, #c300ff);
+        }
+        .window {
+            background-color: #ffff;
+            width: 98%;
+            height: 500px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin-top: 39px;
+            margin-left: 10px;
+            box-shadow: rgb(58, 57, 57) 0px 8px 20px;
+        }
+        .ttext {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function sse()
+        {
+            document.getElementById("d").innerHTML="让你按了吗?";
+            setTimeout(() => history.go(0), 1000)
+        }
+    </script>
+</body>
+</html>

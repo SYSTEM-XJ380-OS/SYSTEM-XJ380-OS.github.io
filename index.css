@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, blue, black);
+  }
+  .work {
+    padding-left: 470px;
+    padding-top: 20px;
+  }
+  .os {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+    border-radius: 20px;
+  }
+  .title{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .p {
+    color: black;
+    text-align: center;
+    font-weight: 10;
+  }
+  .main {
+    background-color: #ffff;
+    width: 98%;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 39px;
+    margin-left: 10px;
+    padding-top: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+  }
